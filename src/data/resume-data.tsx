@@ -3,12 +3,10 @@ import {
   BarepapersLogo,
   BimLogo,
   CDGOLogo,
-  ClevertechLogo,
   ConsultlyLogo,
   EvercastLogo,
   Howdy,
   JarockiMeLogo,
-  JojoMobileLogo,
   Minimal,
   MobileVikingsLogo,
   MonitoLogo,
@@ -20,98 +18,112 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+  name: "Erick Sarabia",
+  initials: "ES",
+  location: "Hidalgo, Mexico",
+  locationLink: "https://www.google.com/maps/place/Hidalgo",
+  about: "Frontend Chapter Leader • Software Engineer • JAMstack enthusiasts",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Software Engineer with 10+ years of experience developing web applications using JavaScript, React and Node.js, with a focus on optimizing web projects and improving development experience. Much of my time is spent researching and implementing new web technologies. The best way to learn is by solving real problems.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/36867526?v=4",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "3ricksarabia@gmail.com",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/3ricksarabia",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/3ricksarabia/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/3ricksarabia",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Politécnica de Pachuca",
+      degree: "Bachelor's Degree in Software Engineering",
+      start: "2009",
+      end: "2013",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Danone",
+      link: "https://www.danone.com/",
+      badges: ["Hybrid"],
+      start: "2023",
+      end: "Present",
+      positions: [
+        {
+          title: "Frontend Chapter Leader",
+          description:
+            "Managed a team of 12 engineers responsible for the frontend development of Danone's digital products.",
+        },
+      ],
+    },
+    {
+      company: "Skydropx",
+      link: "https://www.skydropx.com/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
       start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      end: "2023",
+      positions: [
+        {
+          title: "Engineering Manager",
+          description:
+            "Hire and built a team of 30 engineers responsible for the frontend development. Manage a team of 15 engineers focused on customer acquisition features.",
+        },
+        {
+          title: "Technical Leader",
+          description:
+            "Lead a team of 6 engineers responsible for automating the user onboarding process. Design frontend architecture for an organization of ~70 engineers.",
+        },
+        {
+          title: "Frontend Engineer",
+          description:
+            "Work on the rebuild of the Skydropx API documentation website. Design a component library with React, Storybook and Emotion.",
+        },
+      ],
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Televisa Digital",
+      link: "https://televisa.com/",
+      badges: ["Hybrid"],
+      start: "2021",
+      end: "2019",
+      positions: [
+        {
+          title: "Technical Leader",
+          description:
+            "Lead a team of 3 engineers working on improving Google Lighthouse score of Televisa's websites. Work with Google engineers building PWA of Televisa's websites.",
+        },
+        {
+          title: "Frontend Developer",
+          description:
+            "Increase crawling of content in google search results by integrating structured data and AMP. Improve performance of Televisa's websites by integrating Next.js framework.",
+        },
+      ],
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React",
     "Node.js",
+    "Next.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Docker",
+    "Git",
   ],
   projects: [
     {
@@ -230,49 +242,6 @@ export const RESUME_DATA = {
         label: "mobilevikings.pl",
         href: "https://mobilevikings.pl/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
