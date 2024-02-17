@@ -1,18 +1,9 @@
 import {
-  AmbitLogo,
   BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
   JarockiMeLogo,
   Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
@@ -22,9 +13,10 @@ export const RESUME_DATA = {
   initials: "ES",
   location: "Hidalgo, Mexico",
   locationLink: "https://www.google.com/maps/place/Hidalgo",
-  about: "Frontend Chapter Leader • Software Engineer • JAMstack enthusiasts",
+  about:
+    "Frontend Chapter Leader and JAMstack enthusiasts focused on improving Web Performance and Developer Experience",
   summary:
-    "Software Engineer with 10+ years of experience developing web applications using JavaScript, React and Node.js, with a focus on optimizing web projects and improving development experience. Much of my time is spent researching and implementing new web technologies. The best way to learn is by solving real problems.",
+    "Software Engineer with 10+ years of experience developing web applications using JavaScript, React and Node.js, with a focus on optimizing web projects and improving DX. Much of my time is spent researching and implementing new web technologies. The best way to learn is by solving real problems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/36867526?v=4",
   contact: {
     email: "3ricksarabia@gmail.com",
@@ -52,6 +44,12 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Software Engineering",
       start: "2009",
       end: "2013",
+    },
+    {
+      school: "Utel Universidad",
+      degree: "Master's Degree in Software Engineering and Management",
+      start: "2024",
+      end: "Present",
     },
   ],
   work: [
@@ -195,52 +193,6 @@ export const RESUME_DATA = {
       link: {
         label: "getyearprogress.com",
         href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
       },
     },
   ],
